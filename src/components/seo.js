@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphq, graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 const Seo = ({title}) => {
     const data = useStaticQuery(graphql`
