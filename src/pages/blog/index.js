@@ -6,6 +6,10 @@ import { graphql, Link } from 'gatsby'
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="Mark's Blog">
+      
+      <p>This is a page I'm using not as a blog per se, rather as a record of things I get up to/a newsletter. Though of course it isn't really a newsletter.
+      I may in future consider posting the standalone written articles I link to on here though - I'll try to get something worked out.</p>
+      
       <ul>
         {
             data.allMdx.nodes.map((node) => (
